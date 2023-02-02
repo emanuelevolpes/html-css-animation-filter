@@ -104,7 +104,21 @@
 
 .ex-11-icon {
     font-size: 60px;
+    animation: spin 1s infinite;
 }
+
+@keyframes spin{
+    0%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(315deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
