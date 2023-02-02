@@ -93,7 +93,15 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: rotate 1s infinite;
 }
+
+@keyframes rotate{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
