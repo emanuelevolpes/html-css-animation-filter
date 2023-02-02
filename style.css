@@ -62,11 +62,15 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    transition: 3s;
 }
 
 .ex-6-img:hover{
     filter: grayscale(1);
+}
+
+.ex-7-img:hover{
+    transition: 3s;
+    filter: invert(0.2) opacity(0.5);
 }
 
 .ex-9-img {
